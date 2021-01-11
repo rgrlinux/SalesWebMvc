@@ -1,6 +1,5 @@
 ﻿using System.Linq;
 using System.Collections.Generic;
-using SalesWebMvc.Data;
 using SalesWebMvc.Models;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;

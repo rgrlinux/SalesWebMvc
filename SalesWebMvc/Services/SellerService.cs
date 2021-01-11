@@ -1,6 +1,4 @@
-﻿using System.Linq;
-using System.Collections.Generic;
-using SalesWebMvc.Data;
+﻿using System.Collections.Generic;
 using SalesWebMvc.Models;
 using Microsoft.EntityFrameworkCore;
 using SalesWebMvc.Services.Exceptions;

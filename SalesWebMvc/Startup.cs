@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Localization;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
-using SalesWebMvc.Data;
+using SalesWebMvc.Models;
 using SalesWebMvc.Services;
 using System.Collections.Generic;
 using System.Globalization;
@@ -41,6 +41,7 @@ namespace SalesWebMvc
             services.AddScoped<SeedingService>();
             services.AddScoped<SellerService>();
             services.AddScoped<DepartmentService>();
+            services.AddScoped<SalesRecordService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
